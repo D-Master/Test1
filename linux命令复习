@@ -1,3 +1,4 @@
+find /home -name "m*.c" //找文件
 
 diff -urNwB a b > c.diff
 patch -pl < ../c.diff
