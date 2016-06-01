@@ -1,0 +1,23 @@
+
+diff -urNwB a b > c.diff
+patch -pl < ../c.diff
+
+
+四种   ： 普通文件 -    目录文件 d   符号链接文件 ->   设备文件：块设备 b  字符设备 c  
+
+cd /tmp
+mkdir mydir
+cd mydir
+touch myfile
+cp myfile /home
+cd /tmp
+rmdir mydir
+tar -czf huihui.tar.gz /home/myfile  //gz方式打包
+tar -xzf huihui.tar.gz     //gz方式解压
+
+
+D-Master
+
+
+
+
